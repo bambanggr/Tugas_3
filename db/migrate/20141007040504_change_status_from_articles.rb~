@@ -1,0 +1,4 @@
+class ChangeStatusFromArticles < ActiveRecord::Migration
+  def change
+  end
+end

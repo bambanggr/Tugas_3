@@ -1,0 +1,16 @@
+<div class ="panel panel-primary">
+	<div class ="panel panel-heading">
+		<h3>
+			<%= @article.title %>
+		</h3>
+	</div>
+	<div class="panel panel-body">
+		<p>
+			<%= @article.content %>
+		</p>
+		<h4>
+			Status : <%= @article.status %>
+		</h4>
+	</div>
+	<%= link_to articles_path, class: 'btn btn-default' do%> <i class="glyphicon glyphicon-arrow-left"></i> Back <% end %>
+</div>

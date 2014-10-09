@@ -1,0 +1,4 @@
+class RenameStatusTwoToStatusFromArticles < ActiveRecord::Migration
+  def change
+  end
+end

@@ -1,0 +1,4 @@
+class DeleteNews < ActiveRecord::Migration
+  def change
+  end
+end

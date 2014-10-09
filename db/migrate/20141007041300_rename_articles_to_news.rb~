@@ -1,0 +1,4 @@
+class RenameArticlesToNews < ActiveRecord::Migration
+  def change
+  end
+end

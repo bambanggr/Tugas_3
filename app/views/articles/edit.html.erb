@@ -1,0 +1,37 @@
+ <%= form_for @article do |f| %>
+
+<%= f.label :title %>
+
+<%= f.text_field :title, class: 'form-control' %>
+
+<br/>
+
+<%= f.label :content %>
+
+<%= f.text_area :content, cols: 20, rows: 10, class: 'form-control' %>
+
+<br/>
+
+<%= f.label :status %>
+
+<%= f.radio_button :status, "active" %>
+
+<%= label :article_status, 'active' %>
+
+<%= f.radio_button :status, "off" %>
+
+<%= label :article_status, 'off' %>
+
+<br/>
+
+<div class="actions form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <%= f.submit class: 'btn btn-primary' %>
+    </div>
+
+<% end %>
+ <div>
+
+<%= link_to "Back To Index", articles_path %>
+
+</div>
